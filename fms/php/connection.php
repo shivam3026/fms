@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";        
-$password = "bcamca100";   
+$password = "";   
 $dbname = "fms";  
 	try 
 	{
