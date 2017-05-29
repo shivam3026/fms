@@ -1,0 +1,22 @@
+Outline of the steps need to be done by the participatants:
+
+1.College Respesentative comes to the registration desk
+2.Registered its college
+3.Gets username (college id) and password
+4.Goes to individual college counter(laptop stations) and enter the details of its participtants and which events to participate.
+5.Comes back to the registration counter to collect the fest id card (with Qr code , name and college id on it).
+6.Participitants goes to there respective events.
+
+Backgound work to be done at each step:
+
+1.A registration desk with one laptop with registration portal running on it.
+2.College volunteer registers the college.
+3.System generates Username (college id) and password.
+4.Laptop stations will have a idividual college portal running on it.Participitants can enter there name,email,phone no,list of events want to participitate in.
+5.Data is sent to registration desk where it gets printed and given to the participitants after checking there college id cards.
+6.Then data is send to respective event heads.
+7.Event heads need to submit the results in there portal.
+8.Certificate team will write the results from there portal.
+
+
+

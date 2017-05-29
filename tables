@@ -1,0 +1,42 @@
+Tables:
+1.List of colleges
+2.List of Events
+3.Individual event table with different table name
+4.Event heads 
+
+
+1. List of college
+* College name
+* Address of College/Location
+* College representative name
+* College representative contact no
+* College representative email id
+* College id/Username
+* Password
+
+2. List of Events
+* Event id
+* Event name
+* Event Desc
+* Event rules
+* Event Start Time
+* Event End Time
+* Event Head id
+* Max no. of participtants in each team
+* Max no. of teams
+
+3. Participitants table
+* Event id
+* Participtants Name
+* Participtants Phone no
+* Participtants email id
+
+
+4. Event Heads
+* Event head id
+* Event Head name
+* Event Head phone no
+* Event Head email id
+* Event id
+* Password
+

@@ -1,0 +1,54 @@
+USERS
+
+admin portal
+reception
+individual college portal
+certificate writing team
+event heads
+teachers portal(optional)
+hospitality(optional)
+
+Admin portal:
+* create and delete events
+Create page fields:
+Event name
+Event desc
+Event rules
+Max no of teams from each college
+Max no. of participitants from each college
+
+* view and edit college and participtance data      //do it in reception dashboard then copy paste it here
+* Create and Edit Event heads
+Create Event head page fields:
+Event Head register no
+Event Head Name
+contact no
+email
+password
+* create user teachers 
+* stats
+
+
+Reception:
+* register colleges
+* view and edit college and participtance data
+
+Individual college portal:
+* registration of participitants
+
+Certificate writing team:
+* list of all the participitants
+* list of winner 
+
+Event heads:
+* list of participitans of the event
+* Update the results
+* list of volunteers
+
+Teachers portal:
+* list of all the participating colleges and students
+* on going events 
+* results 
+
+Hospitality :
+* list of hospitality volunteers

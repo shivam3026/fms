@@ -1,0 +1,324 @@
+body,html{
+    height: 100%;
+  }
+
+  nav.sidebar, .main{
+    -webkit-transition: margin 200ms ease-out;
+      -moz-transition: margin 200ms ease-out;
+      -o-transition: margin 200ms ease-out;
+      transition: margin 200ms ease-out;
+  }
+
+  .main{
+    padding: 10px 10px 0 10px;
+  }
+
+ @media (min-width: 765px) {
+
+    .main{
+      position: absolute;
+      width: calc(100% - 40px); 
+      margin-left: 40px;
+      float: right;
+    }
+
+    nav.sidebar:hover + .main{
+      margin-left: 200px;
+    }
+
+    nav.sidebar.navbar.sidebar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+      margin-left: 0px;
+    }
+
+    nav.sidebar .navbar-brand, nav.sidebar .navbar-header{
+      text-align: center;
+      width: 100%;
+      margin-left: 0px;
+    }
+    
+    nav.sidebar a{
+      padding-right: 13px;
+    }
+
+    nav.sidebar .navbar-nav > li:first-child{
+      border-top: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav > li{
+      border-bottom: 1px #e5e5e5 solid;
+    }
+
+    nav.sidebar .navbar-nav .open .dropdown-menu {
+      position: static;
+      float: none;
+      width: auto;
+      margin-top: 0;
+      background-color: transparent;
+      border: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+
+    nav.sidebar .navbar-collapse, nav.sidebar .container-fluid{
+      padding: 0 0px 0 0px;
+    }
+
+    .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+      color: #777;
+    }
+
+    nav.sidebar{
+      width: 200px;
+      height: 100%;
+      margin-left: -160px;
+      float: left;
+      margin-bottom: 0px;
+    }
+
+    nav.sidebar li {
+      width: 100%;
+    }
+
+    nav.sidebar:hover{
+      margin-left: 0px;
+    }
+
+    .forAnimate{
+      opacity: 0;
+    }
+  }
+   
+  @media (min-width: 1330px) {
+
+    .main{
+      width: calc(100% - 200px);
+      margin-left: 200px;
+    }
+
+    nav.sidebar{
+      margin-left: 0px;
+      float: left;
+    }
+
+    nav.sidebar .forAnimate{
+      opacity: 1;
+    }
+  }
+
+  nav.sidebar .navbar-nav .open .dropdown-menu>li>a:hover, nav.sidebar .navbar-nav .open .dropdown-menu>li>a:focus {
+    color: #CCC;
+    background-color: transparent;
+  }
+
+  nav:hover .forAnimate{
+    opacity: 1;
+  }
+  section{
+    padding-left: 15px;
+  }
+  
+ /* CSS Document */
+.form1 {
+	margin-left: 600px;
+/*	margin-top: 70px;*/
+	
+}
+
+.form2 {
+	margin-left: 500px;
+	margin-top: 100px;
+	
+	
+}
+
+#search {
+/*	display: none;*/
+}
+
+.table1 {
+/*
+	width: 80%;
+	color: red;
+*/
+}
+
+.heading1 {
+	text-align: center;
+    color: black;
+	font-weight: bolder;
+	}
+
+#heading_1 {
+	text-align: center;
+	
+	
+}
+
+
+#form1 {
+	display: inline-block;
+	text-align: center;
+	
+}
+.form-group {
+	padding-left: 50px;
+}
+
+.container {
+	text-align: center;
+}
+
+.form {
+	display: block;
+	
+}
+
+.control-label {
+}
+
+
+
+h1 {font-size:1rem;} /*1rem = 16px*/
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Bootstrap 4 breakpoints
+*/
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {  
+  h1 {font-size:1.5rem;} /*1rem = 16px*/
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {  
+  h1 {font-size:2rem;} /*1rem = 16px*/
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  h1 {font-size:2.5rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+  h1 {font-size:3rem;} /*1rem = 16px*/    
+}
+
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+
+/* Set width to make card deck cards 100% width */
+@media (min-width: 950px) and (max-width:1100px) { 
+  h1 {font-size:2.75rem;color:red;} 
+}
+
+
+.headingCreate {
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    font-weight: bold;
+	padding-left: 120px;
+	
+}
+
+.headingSearch {
+  text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    font-weight: bold;
+	padding-left: 420px;	
+}
+
+.table td.fit, 
+.table th.fit {
+    white-space: nowrap;
+    width: 1%;
+}
+
+
+.selecthead {
+	margin: 50px,0,0,500px;
+}
+
+#tfoot {
+	text-align: center;
+}
+
+#event {
+    margin-left: 190px;
+}
+
+.events {
+	margin-left: 185px;
+}
+
+
+
+/*        fetch list using ajax formating  */
+/*
+.typeahead, .tt-query, .tt-hint {
+	border: 2px solid #CCCCCC;
+	border-radius: 8px;
+	font-size: 24px;
+	height: 30px;
+	line-height: 30px;
+	outline: medium none;
+	padding: 8px 12px;
+	width: 396px;
+}
+.typeahead {
+	background-color: #FFFFFF;
+}
+.typeahead:focus {
+	border: 2px solid #0097CF;
+}
+.tt-query {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+*/
+#pre_text {
+  height: 160px;
+  overflow: scroll;
+     
+}
+
+.modal {
+  overflow-y:auto;
+}
+
+
+/* For adding formating to ajax search result*/
+.tt-hint {
+	color: #999999;
+}
+.tt-dropdown-menu {
+	background-color: #FFFFFF;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 12px;
+	padding: 8px 0;
+	width: 422px;
+}
+.tt-suggestion {
+	font-size: 24px;
+	line-height: 24px;
+	padding: 3px 20px;
+}
+.tt-suggestion.tt-is-under-cursor {
+	background-color: #0097CF;
+	color: #FFFFFF;
+}
+.tt-suggestion p {
+	margin: 0;
+}
