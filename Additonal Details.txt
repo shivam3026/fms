@@ -1,0 +1,28 @@
+Event portal
+
+attendance
+Sending result (first authenticate)
+
+
+Certificate Writing Portal
+
+list according to events
+option to tick which all certificate is written
+
+
+
+Reception Desk 
+
+college Registration  
+One table type option to keep record of fees paid by college , keeping notes ,an status type something to check wheater participants detailsed are entered or not ,id card issued or not  collapsing table type
+
+Edit college details
+Edit participitants details
+
+
+Individual college participtants registration
+
+enter list of participatants
+select events 
+summary
+submit
